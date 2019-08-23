@@ -435,7 +435,7 @@ const Radar = function (size, radar) {
     if (sheetName == 'All'){
       return ''
     }
-    return 'Team '+ sheetName
+    return sheetName
   }
 
   function plotRadarHeader () {
